@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a recent Computer Science graduate.
+            I am a recent Computer Science graduate and a self taught developer.
              I love to work on web applications using technologies like
-          Python, Djnago and Bootsrap.
+          Python, Djnago and Bootsrap and currently learning reactJs and Tailwind.
           </p>
 
           <div>
@@ -35,11 +35,11 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className='p-3'>
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto md:w-full"
           />
         </div>
       </div>
