@@ -2,9 +2,7 @@ import React from 'react';
 import onestop from "../assets/portfolio/onestop.jpg";
 import schoolidmanagement from "../assets/portfolio/schoolidmanagement.jpg";
 import cucon from "../assets/portfolio/cucon.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+
 
 
 const Portfolio = () => {
