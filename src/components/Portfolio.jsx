@@ -22,17 +22,6 @@ const Portfolio = () => {
       id:3,
       src: cucon,
       title:"CuCon- Currency Converter Mobile App"
-    },{
-      id:4,
-      src: reactParallax
-    },
-    {
-      id:5,
-      src: reactSmooth
-    },
-    {
-      id:6,
-      src: reactWeather
     },
   ];
   return (
