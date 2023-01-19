@@ -14,23 +14,22 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20 sm:mt-16">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        I am a self-taught developer and a recent graduate of Bachelor of Computer Applications (BCA). I
+        am proficient in a variety of programming languages, including HTML, CSS, Python, C programming, Java and other technologies 
+        like Bootstrap, and SQLite. I am currently on the path of learning React and Tailwind. I have a good experience in building responsive and interactive 
+        web applications and well-versed in both front-end and back-end development. Specifically, I have experience with Django, SQL, REST API development, and Git version control. 
+        I have good understanding of database management and optimization, 
+        and I have experience with integrating web applications with back-end systems.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+        Throughout my academic journey, I have had the opportunity to work
+         on several freelance projects for clients, which has helped me gain valuable 
+         experience and skills in the field of web development. I am excited to share my
+          work and projects with you, and I look forward to connecting with other
+         developers and professionals in the industry. Thank you for visiting my portfolio!
         </p>
       </div>
     </div>

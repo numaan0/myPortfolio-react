@@ -15,9 +15,9 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a recent Computer Science graduate and a self taught developer.
+          Welcome to my web portfolio! I am a self-taught developer.
              I love to work on web applications using technologies like
-          Python, Djnago and Bootsrap and currently learning reactJs and Tailwind.
+          Python, Django and Bootsrap and currently learning reactJs and Tailwind.
           </p>
 
           <div>
