@@ -11,15 +11,18 @@ const Portfolio = () => {
     {
       id:1,
       src: onestop,
-      title: "OneStop Fitness Solution"
+      title: "OneStop Fitness Solution",
+      link:"https://github.com/numaan0/Onestopfitness"
     },{
       id:2,
       src: schoolidmanagement,
-      title: "School ID card Management"
+      title: "School ID card Management",
+      link:"https://github.com/numaan0/SchoolIdManagement"
     },{
       id:3,
       src: cucon,
-      title:"CuCon- Currency Converter Mobile App"
+      title:"CuCon- Currency Converter Mobile App",
+      link:"https://github.com/numaan0/CurrencyConvertor"
     },
   ];
   return (
@@ -36,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src,title }) => (
+          {portfolios.map(({ id, src,title,link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -46,9 +49,9 @@ const Portfolio = () => {
                 <h3 className='text-white text-center mt-1'>{title}</h3>
               <div className="flex items-center justify-center">
               
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 mb-1">
+                <a href={link} className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 mb-1">
                  Click for Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
