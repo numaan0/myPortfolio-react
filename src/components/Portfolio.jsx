@@ -1,7 +1,7 @@
 import React from 'react';
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
+import onestop from "../assets/portfolio/onestop.jpg";
+import schoolidmanagement from "../assets/portfolio/schoolidmanagement.jpg";
+import cucon from "../assets/portfolio/cucon.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
@@ -12,13 +12,16 @@ const Portfolio = () => {
   const portfolios =[
     {
       id:1,
-      src: arrayDestruct
+      src: onestop,
+      title: "OneStop Fitness Solution"
     },{
       id:2,
-      src: installNode
+      src: schoolidmanagement,
+      title: "School ID card Management"
     },{
       id:3,
-      src: navbar
+      src: cucon,
+      title:"CuCon- Currency Converter Mobile App"
     },{
       id:4,
       src: reactParallax
@@ -46,19 +49,18 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src,title }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 "
               />
+                <h3 className='text-white text-center mt-1'>{title}</h3>
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+              
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 mb-1">
+                 Click for Code
                 </button>
               </div>
             </div>
